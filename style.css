@@ -31,14 +31,17 @@ h2 {
 }
 
 /*TABLE*/
+table,
+form {
+  border: 10px outset RGB(237, 175, 5);
+  border-radius: 10px;
+  background-color: black;
+}
 
 table {
   margin: 0 auto;
   width: 600px;
   height: 800px;
-  border: 10px outset RGB(237, 175, 5);
-  border-radius: 10px;
-  background-color: black;
   color: darkorange;
 }
 
@@ -59,4 +62,62 @@ td {
   color: whitesmoke;
   opacity: 0.5;
   font-size: 40px;
+}
+
+/* FORM */
+
+form {
+  width: 600px;
+  height: 1100px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: Verdana;
+  color: white;
+}
+
+legend {
+  font-family: 'Street';
+  font-size: 14px;
+  color: darkorange;
+}
+fieldset {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#dpostal input {
+  display: inline;
+}
+input {
+  display: block;
+}
+
+input[type='radio'] {
+  display: inline;
+}
+
+textarea {
+  width: 560px;
+}
+
+.form_buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  border: 1px solid crimson;
+  background-color: crimson;
+  font-family: 'Street';
+  font-size: 18px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 65px;
 }
