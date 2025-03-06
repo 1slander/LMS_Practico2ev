@@ -100,25 +100,40 @@
 
           <input type="text" name="apellidos" />
         </label>
-        <label for="dpostal" id="dpostal"
-          >Direccion Postal:
+        <div class="dp">
+          <label for="dp_calle"
+            >Direccion Postal:
 
-          <input type="text" name="dpostal" id="dp_calle" placeholder="Calle" />
-          <input type="text" name="dpostal" id="dp_num" placeholder="Numero" />
-          <input type="text" name="dpostal" id="dp_piso" placeholder="Piso" />
-          <input
-            type="text"
-            name="dpostal"
-            id="dp_cp"
-            placeholder="Cod Postal"
-          />
-          <input
-            type="text"
-            name="dpostal"
-            id="dp_ciudad"
-            placeholder="Ciudad"
-          />
-        </label>
+            <input
+              type="text"
+              name="dp_calle"
+              id="dp_calle"
+              placeholder="Calle"
+            />
+          </label>
+          <label for="dp_num">
+            <input type="text" name="dp_num" id="dp_num" placeholder="Numero" />
+          </label>
+          <label for="dp_piso">
+            <input type="text" name="dp_piso" id="dp_piso" placeholder="Piso" />
+          </label>
+          <label for="dp_cp">
+            <input
+              type="text"
+              name="dp_cp"
+              id="dp_cp"
+              placeholder="Cod Postal"
+            />
+          </label>
+          <label for="dp_ciudad">
+            <input
+              type="text"
+              name="dp_ciudad"
+              id="dp_ciudad"
+              placeholder="Ciudad"
+            />
+          </label>
+        </div>
         <label for="nick"
           >Nick:
           <input type="text" name="nick" />
@@ -153,7 +168,7 @@
       <fieldset>
         <legend>Comentarios</legend>
         <label for="comentario">
-          <textarea name="comentario" id="" rows="5"></textarea>
+          <textarea name="comentario" id="" rows="6"></textarea>
         </label>
       </fieldset>
       <div class="form_buttons">

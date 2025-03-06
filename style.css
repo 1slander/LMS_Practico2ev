@@ -3,16 +3,13 @@
   src: url('/font/street.otf');
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
 }
 
 html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Street';
   background-image: url('/img/fondo2.jpg');
   background-repeat: no-repeat;
@@ -82,6 +79,7 @@ legend {
 }
 fieldset {
   padding: 10px;
+  margin: 10px 5px;
 }
 
 label {
@@ -89,9 +87,6 @@ label {
   margin-bottom: 10px;
 }
 
-#dpostal input {
-  display: inline;
-}
 input {
   display: block;
 }
